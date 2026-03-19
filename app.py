@@ -22,7 +22,7 @@ elif menu == "식물 보기":
     tab1, tab2 = st.tabs(["소나무", "벚나무"])
     
     with tab1:
-        st.subheader("🌲 소나무")
+        st.subheader("🌲 참나무")
         st.write("위치: 정문 옆")
         st.info("우리 학교의 교목입니다. 일 년 내내 푸른 잎을 자랑하죠.")
         
