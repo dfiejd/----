@@ -19,7 +19,7 @@ elif menu == "식물 보기":
     st.header("📖 식물 도감 목록")
     
     # 탭 기능을 사용해 식물을 나누어 보여줍니다.
-    tab1, tab2 = st.tabs(["소나무", "벚나무"])
+    tab1, tab2, tab3 = st.tabs(["소나무", "벚나무", "단풍나무"])
     
     with tab1:
         st.subheader("🌲 참나무")
@@ -30,3 +30,8 @@ elif menu == "식물 보기":
         st.subheader("🌸 벚나무")
         st.write("위치: 운동장 스탠드 뒤")
         st.success("봄이 되면 아름다운 꽃잎이 날리는 인기 만점 장소예요!")
+    with tab3:
+        st.subheader("🍁 단풍나무")
+        st.write("위치: 운동장 스탠드 뒤")
+        st.success("가을이 되면 아름다운 단풍이 날리는 인기 만점 장소예요!")
+        
