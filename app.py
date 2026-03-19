@@ -33,5 +33,5 @@ elif menu == "식물 보기":
     with tab3:
         st.subheader("🍁 단풍나무")
         st.write("위치: 운동장 스탠드 뒤")
-        st.success("가을이 되면 아름다운 단풍이 날리는 인기 만점 장소예요!")
+        st.info("가을이 되면 아름다운 단풍이 날리는 인기 만점 장소예요!")
         
