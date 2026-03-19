@@ -11,18 +11,19 @@ menu = st.sidebar.selectbox("메뉴를 선택하세요", ["홈", "식물 보기"
 
 if menu == "홈":
     st.header("반갑습니다! 🤗")
-    st.write("왼쪽 메뉴에서 '식물 보기'를 눌러 우리 학교의 나무들을 확인해 보세요.")
+    st.write("왼쪽 메뉴에서 '식물 보기'를 눌러 우리 학교의 식물들을 확인해 보세요.")
     # 학교 사진이 있다면 아래 주석(#)을 지우고 파일 이름을 넣으세요.
+    # st.image("무한도전_사랑해요.png", caption="우리 학교 전경")
     st.image("test_main.jpg", caption="우리 학교 전경")
 
 elif menu == "식물 보기":
     st.header("📖 식물 도감 목록")
     
     # 탭 기능을 사용해 식물을 나누어 보여줍니다.
-    tab1, tab2 = st.tabs(["소나무", "벚나무"])
+    tab1, tab2, tab3 = st.tabs(["소나무", "벚나무", "단풍나무"])
     
     with tab1:
-        st.subheader("🌲 소나무")
+        st.subheader("🌲 참나무")
         st.write("위치: 정문 옆")
         st.info("우리 학교의 교목입니다. 일 년 내내 푸른 잎을 자랑하죠.")
         
@@ -30,3 +31,8 @@ elif menu == "식물 보기":
         st.subheader("🌸 벚나무")
         st.write("위치: 운동장 스탠드 뒤")
         st.success("봄이 되면 아름다운 꽃잎이 날리는 인기 만점 장소예요!")
+    with tab3:
+        st.subheader("🍁 단풍나무")
+        st.write("위치: 운동장 스탠드 뒤")
+        st.info("가을이 되면 아름다운 단풍이 날리는 인기 만점 장소예요!")
+        
