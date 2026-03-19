@@ -13,7 +13,7 @@ if menu == "홈":
     st.header("반갑습니다! 🤗")
     st.write("왼쪽 메뉴에서 '식물 보기'를 눌러 우리 학교의 식물들을 확인해 보세요.")
     # 학교 사진이 있다면 아래 주석(#)을 지우고 파일 이름을 넣으세요.
-    # st.image("school_view.jpg", caption="우리 학교 전경")
+    st.image("무한도전_사랑해요.png", caption="우리 학교 전경")
 
 elif menu == "식물 보기":
     st.header("📖 식물 도감 목록")
