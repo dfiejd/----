@@ -5,17 +5,14 @@ st.set_page_config(page_title="학성여자고등학교 식물 도감", page_ico
 
 st.title("🌿 학성여자고등학교 식물도감")
 st.write("학성여자고등학교 교정에 어떤 식물들이 살고 있을까요?")
-
-# 메뉴 선택 (사이드바)
-menu = st.sidebar.selectbox("메뉴를 선택하세요", ["홈", "식물 도감"])
-
 st.divider() # 구분선
     
 # 🌟 제작자 이름 넣는 부분 🌟
-st.markdown("---")
 st.markdown("### **🛠️ 제작자 정보**")
 st.markdown("**학번/이름:** [30326 황연우]")
-st.markdown("---")
+
+# 메뉴 선택 (사이드바)
+menu = st.sidebar.selectbox("메뉴를 선택하세요", ["홈", "식물 도감"])
 
 if menu == "홈":
     st.header("학성여자고등학교 식물도감에 오신 것을 환영합니다! 🤗")
