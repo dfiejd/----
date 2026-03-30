@@ -51,7 +51,7 @@ elif menu == "나무":
     with tab4:
         st.subheader("향나무")
         st.write("위치: 운동장 스탠드 뒤")
-        st.info("가을이 되면 아름다운 단풍이 날리는 인기 만점 장소예요!")
+        st.success("가을이 되면 아름다운 단풍이 날리는 인기 만점 장소예요!")
         with st.expander("📖 더 자세한 이야기"):
                 st.write("단풍나무는 일교차가 클수록 더욱 붉은색을 띱니다.")
 
@@ -65,7 +65,7 @@ elif menu == "나무":
     with tab6:
         st.subheader("메티세콰이어")
         st.write("위치: 운동장 스탠드 뒤")
-        st.info("가을이 되면 아름다운 단풍이 날리는 인기 만점 장소예요!")
+        st.success("가을이 되면 아름다운 단풍이 날리는 인기 만점 장소예요!")
         with st.expander("📖 더 자세한 이야기"):
                 st.write("단풍나무는 일교차가 클수록 더욱 붉은색을 띱니다.")  
     
@@ -79,7 +79,7 @@ elif menu == "나무":
     with tab8:
         st.subheader("야자수")
         st.write("위치: 운동장 스탠드 뒤")
-        st.info("가을이 되면 아름다운 단풍이 날리는 인기 만점 장소예요!")
+        st.success("가을이 되면 아름다운 단풍이 날리는 인기 만점 장소예요!")
         with st.expander("📖 더 자세한 이야기"):
                 st.write("단풍나무는 일교차가 클수록 더욱 붉은색을 띱니다.")
     
@@ -94,7 +94,7 @@ elif menu == "꽃":
     st.header("📖 꽃 목록")
     
     # 탭 기능을 사용해 식물을 나누어 보여줍니다.
-    tab1, tab2, tab3, tab4 = st.tabs(["튤립", "목련", "국화", "동백꽃"])
+    tab1, tab2, tab3, tab4 = st.tabs(["튤립", "목련", "국화", "동백꽃", "잔디"])
     
     with tab1:
         st.subheader("튤립")
@@ -121,6 +121,13 @@ elif menu == "꽃":
     with tab4:
         st.subheader("동백꽃")
         st.write("위치: 운동장 스탠드 뒤")
+        st.success("가을이 되면 아름다운 단풍이 날리는 인기 만점 장소예요!")
+        with st.expander("📖 더 자세한 이야기"):
+                st.write("단풍나무는 일교차가 클수록 더욱 붉은색을 띱니다.") 
+
+    with tab5:
+        st.subheader("잔디")
+        st.write("위치: 운동장 스탠드 뒤")
         st.info("가을이 되면 아름다운 단풍이 날리는 인기 만점 장소예요!")
         with st.expander("📖 더 자세한 이야기"):
-                st.write("단풍나무는 일교차가 클수록 더욱 붉은색을 띱니다.")               
+                st.write("단풍나무는 일교차가 클수록 더욱 붉은색을 띱니다.")              
