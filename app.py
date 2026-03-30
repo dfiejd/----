@@ -18,7 +18,7 @@ if menu == "홈":
     st.header("학성여자고등학교 식물도감에 오신 것을 환영합니다! 🤗")
     st.write("왼쪽 메뉴를 눌러 우리 학교의 식물들을 확인해 보세요.")
     # 학교 사진이 있다면 아래 주석(#)을 지우고 파일 이름을 넣으세요.
-    st.image("test_main.jpg", caption="학성여자고등학교 전경")
+    st.image("학성여자고등학교 전경.jpg", caption="학성여자고등학교 전경")
     
 
 elif menu == "나무":
@@ -48,7 +48,7 @@ elif menu == "나무":
         st.info("가을이 되면 아름다운 단풍이 날리는 인기 만점 장소예요!")
         with st.expander("📖 더 자세한 이야기"):
                 st.write("단풍나무는 일교차가 클수록 더욱 붉은색을 띱니다.")      
-                         
+
 elif menu == "꽃":
     st.header("📖 꽃 목록")
     
