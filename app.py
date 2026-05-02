@@ -94,7 +94,7 @@ elif menu == "꽃":
     st.header("📖 꽃 목록")
     
     # 탭 기능을 사용해 식물을 나누어 보여줍니다.
-    tab1, tab2, tab3, tab4 = st.tabs(["튤립", "목련", "국화", "동백꽃", "잔디"])
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(["튤립", "목련", "국화", "동백꽃", "잔디"])
     
     with tab1:
         st.subheader("튤립")
