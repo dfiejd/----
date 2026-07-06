@@ -25,21 +25,19 @@ elif menu == "나무":
     st.header("📖 나무 목록")
     
     # 탭 기능을 사용해 식물을 나누어 보여줍니다.
-    tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9 = st.tabs(["소나무", "벚나무", "단풍나무", "향나무", "배롱나무", "메티세콰이어", "등나무", "야자수", "호랑가시나무"])
+    tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9 = st.tabs(["풍게나무", "사철나무", "단풍나무", "향나무", "배롱나무", "메티세콰이어", "등나무", "야자수", "호랑가시나무"])
     
     with tab1:
-        st.subheader("소나무")
-        st.write("위치: 정문 옆")
-        st.info("우리 학교의 교목입니다. 일 년 내내 푸른 잎을 자랑하죠.우와와아왕")
+        st.subheader("풍게나무")
+        st.info("4 ~ 5월에 개화합니다.")
         with st.expander("📖 더 자세한 이야기"):
-                st.write("소나무는 잎이 두 개씩 뭉쳐나며, 갈색 수피가 특징입니다와오아ㅗ아ㅗ아ㅗ아오")
+                st.write("10월경에 지름 7 ~ 8mm의 열매가 검은색으로 익습니다.")
         
     with tab2:
-        st.subheader("벚나무")
-        st.write("위치: 운동장 스탠드 뒤")
-        st.success("봄이 되면 아름다운 꽃잎이 날리는 인기 만점 장소예요!")
+        st.subheader("사철나무")
+        st.success("6 ~ 7월에 개화합니다.")
         with st.expander("📖 더 자세한 이야기"):
-                st.write("벚나무 앞에서 자주 반 단체사진을 찍습니다.")
+                st.write("사철 내내 늘 푸른 잎을 보여주어 이름이 사철나무가 되었고, 꽃말도 '변함없다'를 뜻합니다.")
         
     with tab3:
         st.subheader("단풍나무")
@@ -94,44 +92,46 @@ elif menu == "꽃":
     st.header("📖 꽃 목록")
     
     # 탭 기능을 사용해 식물을 나누어 보여줍니다.
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(["튤립", "목련", "국화", "동백꽃", "잔디"])
+    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["꽃마리", "붓꽃", "송엽국", "클로버", "고들빼기", "씀바귀"])
     
     with tab1:
-        st.subheader("튤립")
-        st.write("위치: 정문 옆")
-        st.info("우리 학교의 교목입니다. 일 년 내내 푸른 잎을 자랑하죠.")
+        st.subheader("꽃마리")
+        st.info("4 ~ 7월에 개화합니다.")
         with st.expander("📖 더 자세한 이야기"):
-                st.write("소나무는 잎이 두 개씩 뭉쳐나며, 갈색 수피가 특징입니다.")
+                st.write("꽃대가 태엽처럼 펴지면서 자랍니다. 꽃말은 물망초의 꽃말과 동일한 '나를 잊지 말아요' 입니다.")
         
     with tab2:
-        st.subheader("목련")
-        st.write("위치: 운동장 스탠드 뒤")
-        st.success("봄이 되면 아름다운 꽃잎이 날리는 인기 만점 장소예요!")
+        st.subheader("붓꽃")
+        st.success("6 ~ 8월에 개화합니다.")
         with st.expander("📖 더 자세한 이야기"):
-                st.write("벚나무 앞에서 자주 반 단체사진을 찍습니다.")
+                st.write("물을 좋아하여 하천, 습지, 연못 주변에 잘 자랍니다.")
         
         
     with tab3:
-        st.subheader("국화")
-        st.write("위치: 운동장 스탠드 뒤")
-        st.info("가을이 되면 아름다운 단풍이 날리는 인기 만점 장소예요!")
+        st.subheader("송엽국")
+        st.info("5 ~ 6월에 개화합니다.")
         with st.expander("📖 더 자세한 이야기"):
-                st.write("단풍나무는 일교차가 클수록 더욱 붉은색을 띱니다.")
+                st.write("이름이 소나무 잎처럼 생긴 국화라 하여 송엽국이며, 여러해살이풀 입니다.")
     
     with tab4:
-        st.subheader("동백꽃")
-        st.write("위치: 운동장 스탠드 뒤")
-        st.success("가을이 되면 아름다운 단풍이 날리는 인기 만점 장소예요!")
+        st.subheader("클로버")
+        st.success("6 ~ 8월에 개화합니다.")
         with st.expander("📖 더 자세한 이야기"):
-                st.write("단풍나무는 일교차가 클수록 더욱 붉은색을 띱니다.") 
+                st.write("행운의 상징인 네잎클로버는, 특정 유전자 조합이 존재하며 열성이라고 추정하고 있습니다. 기형이라고 합니다.") 
 
     with tab5:
-        st.subheader("잔디")
-        st.write("위치: 운동장 스탠드 뒤")
-        st.info("가을이 되면 아름다운 단풍이 날리는 인기 만점 장소예요!")
+        st.subheader("고들빼기")
+        #st.write("위치: 운동장 스탠드 뒤")
+        st.info("5 ~ 9월에 개화합니다.")
         with st.expander("📖 더 자세한 이야기"):
-                st.write("단풍나무는 일교차가 클수록 더욱 붉은색을 띱니다.")              
+                st.write("순천권에서는 김치나 나물로도 담궈먹기도 합니다.")              
 
+    with tab6:
+        st.subheader("씀바귀")
+        #st.write("위치: 운동장 스탠드 뒤")
+        st.info("5 ~ 7월에 개화합니다.")
+        with st.expander("📖 더 자세한 이야기"):
+                st.write("고들빼기와 혼동되기도 하는데, 씀바귀는 꽃술이 검은빛이고 잎이 줄기를 감싸지 않습니다.") 
 
 elif menu == "지도":
     st.header("📖 지도")
