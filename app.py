@@ -129,7 +129,7 @@ elif menu == "꽃":
     with tab6:
         st.subheader("씀바귀")
         #st.write("위치: 운동장 스탠드 뒤")
-        st.info("5 ~ 7월에 개화합니다.")
+        st.success("5 ~ 7월에 개화합니다.")
         with st.expander("📖 더 자세한 이야기"):
                 st.write("고들빼기와 혼동되기도 하는데, 씀바귀는 꽃술이 검은빛이고 잎이 줄기를 감싸지 않습니다.") 
 
