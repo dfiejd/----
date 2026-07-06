@@ -11,7 +11,7 @@ menu = st.sidebar.selectbox("메뉴를 선택하세요", ["홈", "나무", "꽃"
 with st.sidebar:
     st.write("---") # 구분선
     st.caption("제작자: [30326 황연우]")
-    st.caption("2026 [학성여자고등학교] 봉사활동 팀 프로젝트")
+    st.caption("2026 학성여자고등학교 봉사활동 팀 프로젝트")
 
 
 if menu == "홈":
